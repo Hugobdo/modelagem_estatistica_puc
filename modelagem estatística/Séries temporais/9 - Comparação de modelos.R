@@ -55,6 +55,7 @@ hist(serie3)
 qqnorm(serie3)
 qqline(serie3)
 
+shapiro.test(serie3)
 
 #### ESTACIONARIDADE
 library("urca")
